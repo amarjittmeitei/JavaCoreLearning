@@ -78,7 +78,7 @@ public class ArrayInJava {
 
 
         //when we say int marks[][] = new int[x][y]
-        //the value of x is compulsury
+        //the value of x is compulsory
         //the value of y is optional
         //we can write like
         //int marks[][] = new int[3][]; // this is also true
