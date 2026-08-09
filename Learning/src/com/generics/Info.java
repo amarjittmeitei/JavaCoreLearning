@@ -107,8 +107,6 @@ package com.generics;
 
 */
 
-import javax.xml.crypto.dsig.SignedInfo;
-
 class SingleData <T>
 {
     T i;
@@ -280,7 +278,7 @@ public class Info {
 
 
     * Things that can not do with generics type
-        1. intanceof operator cannot be used with generics
+        1. instanceof operator cannot be used with generics
            For example:
            List<String> l = new ArrayList<>();
            -> if(l instanceof List<String>) this is wrong (compilation err)
