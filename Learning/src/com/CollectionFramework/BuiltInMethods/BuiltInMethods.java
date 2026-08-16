@@ -141,6 +141,45 @@ public class BuiltInMethods {
         System.out.println("map.clear() : " + map);
 
 
+        //TREEMAP
+        System.out.println();
+        TreeMap<Integer,String>treeMap = new TreeMap<>();
+        treeMap.put(401,"Amarjit");
+        treeMap.put(402,"Panthoi");
+        treeMap.put(403,"Heirok");
+        System.out.println("treeMap : " + treeMap);
+
+        //firstKey()
+        System.out.println("treeMap.firstKey() : " + treeMap.firstKey());
+        //lastKey()
+        System.out.println("treeMap.lastKey() : " + treeMap.lastKey());
+        //firstEntry()
+        System.out.println("treeMap.firstEntry() : " + treeMap.firstEntry());
+        //lastEntry()
+        System.out.println("treeMap.lastEntry() : " + treeMap.lastEntry());
+        //headMap() ---> same as headSet() on treeSet
+        System.out.println("treeMap.headMap(402) : " + treeMap.headMap(402));
+        //tailMap() ---> same as tailSet() on treeSet
+        System.out.println("treeMap.tailMap(402) : " + treeMap.tailMap(402));
+        //subMap() ---> same as subSet() on treeSet
+        System.out.println("treeMap.subMap(401,402) : " + treeMap.subMap(401,402));
+
+        //methods from Navigable interface
+        //lowerKey(key)
+        System.out.println("treeMap.lowerKey(402) : " + treeMap.lowerKey(402));
+        //higherKey(key)
+        System.out.println("treeMap.higherKey(402) : " + treeMap.higherKey(402));
+        //lowerEntry(key)
+        System.out.println("treeMap.lowerEntry(402) : " + treeMap.lowerEntry(402));
+        //higherEntry(key)
+        System.out.println("treeMap.higherEntry(402) : " + treeMap.higherEntry(402));
+        //treeMap.pollFirstEntry();
+        //treeMap.pollLastEntry();
+        //treeMap.descendingMap();
+        //most of all the methods on TreeSet are also here with modified name
+
+
+
 
 
 
