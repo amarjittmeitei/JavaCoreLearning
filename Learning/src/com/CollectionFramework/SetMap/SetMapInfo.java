@@ -115,11 +115,9 @@ public class SetMapInfo {
         mp.put(101,"Amarjit");
         mp.put(102,"Thadoi");
         mp.put(103,"Panthoi");
+        //mp.put(101,"moirangthem") // is not allowed, key should be unique
         System.out.println("mp.get(103) : " + mp.get(103));
         System.out.println("mp.containsKey(101) : " + mp.containsKey(101));
-
-
-
 
     }
 }
