@@ -99,7 +99,7 @@ class OtherClass
 
 
 
-public class Demo {
+public class ImmutableInfo {
 
     public static void main(String[] args) {
         OtherClass otherOb = new OtherClass("Moirangthem","Thadoi");
