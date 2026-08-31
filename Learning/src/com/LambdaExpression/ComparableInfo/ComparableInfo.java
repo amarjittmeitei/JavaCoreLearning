@@ -1,4 +1,4 @@
-package com.CollectionFramework.ComparableInfo;
+package com.LambdaExpression.ComparableInfo;
 
 /*
         COMPARABLE INTERFACE
@@ -21,7 +21,6 @@ package com.CollectionFramework.ComparableInfo;
 
 */
 
-import com.core.ImmutableClass.ImmutableInfo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
