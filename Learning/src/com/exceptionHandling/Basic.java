@@ -17,6 +17,37 @@ public class Basic {
         {
             System.out.println("cannot divided by zero");
         }
+        catch (IllegalArgumentException e)
+        {
+            System.out.println("invalid argument");
+        }
+        //after java7 sibling exceptions can be written in one catch block
+        //here IllegalStateException and ClassCastException are
+        //sibling exception. So,
+
+        catch(IllegalStateException |
+                ClassCastException e)
+        {
+            System.out.println("Common exception are there!");
+        }
+
+
+
+        //Higher hierarchy exception have other exception catch block unreachable
+//        catch (NullPointerException e)
+//        {
+//            System.out.println("Null are not allowed");
+//        }
+        catch (NullPointerException e)
+        {
+            System.out.println("Null are not allowed");
+        }
+        //higher hierarchy exception should be keep at the bottom
+        //otherwise the lower hierarchy exception will be unreachable
+        catch (Exception e)
+        {
+            System.out.println("An generic exception is there");
+        }
         System.out.println("end");
     }
 }

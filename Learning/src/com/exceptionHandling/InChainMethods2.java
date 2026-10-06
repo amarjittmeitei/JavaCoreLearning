@@ -20,8 +20,7 @@ public class InChainMethods2 {
         System.out.println("mid2");//unreadable line
     }
 
-    static void methodB(int a, int b)
-    {
+    static void methodB(int a, int b) {
         System.out.println(a/b);
         System.out.println("end"); //unreachable line
     }
