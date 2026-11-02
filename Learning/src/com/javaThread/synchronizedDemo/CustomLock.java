@@ -1,7 +1,7 @@
 package com.javaThread.synchronizedDemo;
 
 public class CustomLock {
-    
+
     public static void main(String[] args) {
         Transaction transaction = new Transaction();
 
