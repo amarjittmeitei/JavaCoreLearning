@@ -12,6 +12,8 @@ package com.javaThread.problems;
 public class VisibilityProblem {
 
     static boolean flag = false;
+    //Solution for this visibility problem is declare the shared resource volatile
+    //static volatile boolean flag = false;
 
     public static void main(String[] args) {
         Thread t1 = new Thread(()->{
