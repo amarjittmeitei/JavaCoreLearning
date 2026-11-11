@@ -30,11 +30,11 @@ public class TryOptimisticStampedLock {
 
         r1.start();
         r2.start();
+        r3.start();
+        r4.start();
         w1.start();
         w2.start();
         w3.start();
-        r3.start();
-        r4.start();
         w4.start();
     }
 }
@@ -47,7 +47,7 @@ class ReaderWriterUsingOptimistic{
     public void reader(){
         Long stamp = lock.tryOptimisticRead();
         String threadName = Thread.currentThread().getName();
-        System.out.println(threadName+ ": Trying optimistic lock");
+        //System.out.println(threadName+ ": Trying optimistic lock");
         int currentValue = item;
 
 //        //mimicking some task
