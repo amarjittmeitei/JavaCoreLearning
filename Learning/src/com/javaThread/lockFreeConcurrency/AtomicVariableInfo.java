@@ -46,7 +46,7 @@ public class AtomicVariableInfo {
                 System.out.println(seatBooking.seat.get());
             }
         });
-        
+
         t1.start();
         t2.start();
         t3.start();
