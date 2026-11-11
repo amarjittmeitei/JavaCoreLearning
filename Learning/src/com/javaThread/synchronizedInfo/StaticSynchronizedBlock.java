@@ -1,4 +1,4 @@
-package com.javaThread.synchronizedDemo;
+package com.javaThread.synchronizedInfo;
 
 public class StaticSynchronizedBlock {
     public static void main(String[] args) throws Throwable{

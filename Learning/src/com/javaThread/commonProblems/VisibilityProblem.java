@@ -1,4 +1,4 @@
-package com.javaThread.problems;
+package com.javaThread.commonProblems;
 
 /*
     Visibility problem

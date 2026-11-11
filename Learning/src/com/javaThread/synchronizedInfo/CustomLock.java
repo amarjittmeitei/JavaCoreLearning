@@ -1,4 +1,4 @@
-package com.javaThread.synchronizedDemo;
+package com.javaThread.synchronizedInfo;
 
 public class CustomLock {
 

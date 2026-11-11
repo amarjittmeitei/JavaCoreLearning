@@ -1,4 +1,4 @@
-package com.javaThread.problems;
+package com.javaThread.commonProblems;
 
 //Race condition problem due to unhandled share resource and critical section
 //also Atomicity problem due to non-atomic critical section
