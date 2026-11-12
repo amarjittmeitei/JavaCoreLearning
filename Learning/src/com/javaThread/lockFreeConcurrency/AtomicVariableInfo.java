@@ -23,31 +23,48 @@ public class AtomicVariableInfo {
 
         Thread t1 = new Thread(() -> {
             if(seatBooking.bookSeat("Thoi")){
-                System.out.println(seatBooking.seat.get());
+                System.out.println(seatBooking.seat.get() + " get the seat");
+            }else{
+                System.out.println("Thoi did not get the seat");
             }
         });
         Thread t2 = new Thread(() -> {
             if(seatBooking.bookSeat("Amarjit")){
-                System.out.println(seatBooking.seat.get());
+                System.out.println(seatBooking.seat.get() + " get the seat");
+            }else{
+                System.out.println("Amarjit did not get the seat");
             }
         });
         Thread t3 = new Thread(() -> {
             if(seatBooking.bookSeat("Rexgona")){
-                System.out.println(seatBooking.seat.get());
+                System.out.println(seatBooking.seat.get() + " get the seat");
+            }else{
+                System.out.println("Rexgona did not get the seat");
             }
         });
         Thread t4 = new Thread(() -> {
             if(seatBooking.bookSeat("Sunanda")){
-                System.out.println(seatBooking.seat.get());
+                System.out.println(seatBooking.seat.get() + " get the seat");
+            }else{
+                System.out.println("Sunanda did not get the seat");
             }
         });
         Thread t5 = new Thread(() -> {
             if(seatBooking.bookSeat("Thoungamba")){
-                System.out.println(seatBooking.seat.get());
+                System.out.println(seatBooking.seat.get() + " get the seat");
+            }
+            else{
+                System.out.println("Thoungamba did not get the seat");
             }
         });
 
         t1.start();
+
+//        //checking other thread can override the taken seat
+//        try {
+//            Thread.sleep(3000);
+//        }catch (Exception ex){}
+
         t2.start();
         t3.start();
         t4.start();
