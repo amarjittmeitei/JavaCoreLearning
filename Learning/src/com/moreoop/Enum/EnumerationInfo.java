@@ -244,6 +244,11 @@ public class EnumerationInfo {
             System.out.println(i);
         }
 
+        //converting single ordinance to enum constant
+        System.out.println("\nconverting single ordinance to enum constant");
+        Payment paymentConstant = Payment.values()[1];
+        System.out.println(paymentConstant);
+
         //enum direction
         System.out.println("\nENUM DIRECTION");
         Direction direction1 = Direction.EAST;

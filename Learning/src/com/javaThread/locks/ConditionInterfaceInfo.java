@@ -1,7 +1,7 @@
 package com.javaThread.locks;
 
 /*
-    Conditional interface replace the old wait(), notify() and notifyAll() method
+    Condition interface replace the old wait(), notify() and notifyAll() method
     own by the Object class.
 
     Modern alternatives provided by Conditional Interface
@@ -17,7 +17,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ConditionalInterfaceInfo {
+public class ConditionInterfaceInfo {
     public static void main(String[] args) {
         Box box = new Box();
 
